@@ -1,0 +1,198 @@
+body 
+
+
+.bg-1 {
+	height: 700px;
+}
+
+
+
+.bg-1 img {
+	background-size: cover;
+	width: 100%;
+	background-position: center;
+	opacity: 0.6;
+}
+
+
+.bg-2 {
+	position: absolute;
+	height: 450px;
+	background-color: white;
+}
+
+
+.bg-2 h2 {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	margin-top: 70px;
+}
+
+.bg-2 p {
+	font-size: 21px;
+	margin-top: 70px;
+	font-family: 'Inconsolata', monospace;
+}
+
+.bg-3 {
+	height: 450px;
+}
+
+
+.bg-4 {
+	background-color: yellow;
+	margin-top: 0px;
+}
+
+.bg-4 p {
+	font-family: 'Inconsolata', monospace;
+	padding-bottom: 150px;
+	padding-top: 50px;
+	font-size: 21px;
+}
+
+.bg-4 h2 {
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.bg-5 {
+	min-height: 600px;
+	
+}
+
+.navbar .navbar-brand {
+	font-size: 26px;
+}
+
+
+.navbar {
+	background-color: transparent;
+	font-size: 18px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+    border: 0px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: red;
+}
+
+.navbar-nav  li a:hover {
+      color: white !important;
+  }
+
+.progress {
+  height: 35px;
+
+}
+.progress .skill {
+  font: normal 12px "Open Sans Web";
+  line-height: 35px;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-transform: uppercase;
+}
+.progress .skill .val {
+  float: right;
+  font-style: normal;
+  margin: 0 20px 0 0;
+}
+
+.progress-bar {
+  text-align: left;
+  transition-duration: 3s;
+}
+
+
+.work {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 270px;
+  width: 100%;
+  display: table;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .work {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .work {
+    height: 270px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+.jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-bottom: 0px;
+	}
+}
+
+
+
+.work .desc {
+  display: table-cell;
+  vertical-align: middle;
+  height: 270px;
+  background: #fff;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.work .desc h3 {
+  font-size: 14px;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  -webkit-transform: translate3d(0, -15px, 0);
+  transform: translate3d(0, -15px, 0);
+}
+.work .desc span {
+  display: block;
+  color: #999999;
+  font-size: 12px;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  -webkit-transform: translate3d(0, 15px, 0);
+  transform: translate3d(0, 15px, 0);
+}
+@media screen and (max-width: 768px) {
+  .work .desc {
+    opacity: 1;
+    background: transparent !important;
+  }
+  .work .desc h3 {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .work .desc span {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.work:hover .desc {
+  opacity: .7;
+}
+.work:hover .desc h3 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.work:hover .desc span {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+
+footer  {
+	background-color: black;
+	font-size: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}

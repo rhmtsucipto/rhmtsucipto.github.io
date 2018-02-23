@@ -17,7 +17,7 @@ body
 .bg-2 {
 	position: absolute;
 	height: 450px;
-	background-color: white;
+	background-color: #e6e6e6
 }
 
 
@@ -38,7 +38,7 @@ body
 
 
 .bg-4 {
-	background-color: yellow;
+	background-color: #f2f2f2
 	margin-top: 0px;
 }
 
@@ -54,8 +54,41 @@ body
 }
 
 .bg-5 {
-	min-height: 600px;
-	
+  background-color: #e6e6e6
+}
+
+.bg-5 h2{
+    padding-bottom: 70px;
+    font-family: 'Ubuntu Condensed', sans-serif; 
+}
+
+.bg-5 h4 {
+  padding-top: 30px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 26px;
+}
+
+
+.bg-5 p {
+  padding-top: 25px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+}
+
+.bg-5 .btn-default {
+  font-family: 'Inconsolata', monospace;
+
+}
+
+
+.bg-6 {
+  background-color: #e6e6e6
+  height: 250px;
+}
+
+.bg-6 h2 {
+    font-size: 32px;
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .navbar .navbar-brand {
@@ -71,11 +104,11 @@ body
 }
 
 .navbar-default .navbar-nav li a {
-    color: red;
+    color: #8c8c8c
 }
 
 .navbar-nav  li a:hover {
-      color: white !important;
+      color: black !important;
   }
 
 .progress {
@@ -188,10 +221,11 @@ body
 }
 
 
-footer  {
+.footer  {
 	background-color: black;
-	font-size: 16px;
+	font-size: 18px;
 	padding-top: 16px;
 	padding-bottom: 16px;
 	font-family: 'Ubuntu Condensed', sans-serif;
+  color: white;
 }

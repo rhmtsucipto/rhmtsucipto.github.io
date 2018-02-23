@@ -1,4 +1,4 @@
-$(function () {
+ $(function () {
 	// body.
 
 	$('a[href^="#"]').on('click',function (e) {
@@ -9,7 +9,7 @@ $(function () {
 
 		$('html, body').stop().animate({
 			'scrollTop': $target.offset().top
-		}, 1020, 'swing', function () {
+		}, 774, 'swing', function () {
 			window.location.hash = target;
 		});
 	});
